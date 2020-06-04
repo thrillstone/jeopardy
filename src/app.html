@@ -1,0 +1,23 @@
+<template>
+  <require from="app.scss"></require>
+  <section>
+    <div class="flex board">
+      <div repeat.for="category of categories">
+        <div class="category">
+          <span>${category.name}</span>
+        </div>
+        <div class="dollars">
+          <div class="answer-block" repeat.for="answer of category.answers">
+            <div class="click" if.bind="!answer.viewed" click.delegate="showQuestion(answer, ($index + 1) * 100 * round)">$${($index + 1) * 100 * round}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div if.bind="questionVisible" class="question" click.delegate="questionVisible = false">
+      ${question.answer}
+    </div>
+    <div if.bind="showFinalJeopardyClue" class="question" click.delegate="questionVisible = false">
+      ${finalJeopardyCategory}
+    </div>
+  </section>
+</template>

@@ -1,0 +1,57 @@
+body {
+    background: blue;
+    color: white;
+    text-align: center;
+    font-family: "ITC Korinna"; src: url("//db.onlinewebfonts.com/t/e3e3a81b2544f4508a75573a04e0cafa.eot"); src: url("//db.onlinewebfonts.com/t/e3e3a81b2544f4508a75573a04e0cafa.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e3e3a81b2544f4508a75573a04e0cafa.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e3e3a81b2544f4508a75573a04e0cafa.woff") format("woff"), url("//db.onlinewebfonts.com/t/e3e3a81b2544f4508a75573a04e0cafa.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e3e3a81b2544f4508a75573a04e0cafa.svg#ITC Korinna") format("svg");
+    text-shadow: black 5px 5px 10px;
+
+    .question {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        background: blue;
+        font-size: 8vw;
+        text-transform: uppercase;
+    }
+
+    .category {
+        font-weight: 300;
+        text-shadow: none;
+        height: 8vh;
+        font-size: 3vh;
+        border-left: 8px solid black;
+        border-right: 8px solid black;
+        border-top: 8px solid black;
+        box-sizing: content-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .board {
+        font-family: "Swiss 911"; src: url("//db.onlinewebfonts.com/t/6a891befed317fa85014538362250762.eot"); src: url("//db.onlinewebfonts.com/t/6a891befed317fa85014538362250762.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6a891befed317fa85014538362250762.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6a891befed317fa85014538362250762.woff") format("woff"), url("//db.onlinewebfonts.com/t/6a891befed317fa85014538362250762.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6a891befed317fa85014538362250762.svg#Swiss 911") format("svg");
+    }
+
+    .answer-block {
+        border: 4px solid black;
+        width: 20vw;
+        height: 18vh;
+        font-size: 6vw;
+        color: #ddcb8e;
+        vertical-align: middle;
+        line-height: 18vh;
+    }
+
+    .click {
+        cursor: pointer;
+    }
+
+    .dollars {
+        border-top: 8px solid black;
+        border-bottom: 8px solid black;
+    }
+}
