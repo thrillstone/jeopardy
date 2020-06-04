@@ -152,8 +152,8 @@ export class App {
           answer: "This Canadian university has produced the most co-ops for Solace",
           question: "What is Carleton"
         }, {
-          answer: "This co-op student ",
-          question: "Who is Kevin"
+          answer: "A co-op term is this many weeks",
+          question: "What is 16"
         }, {
           answer: "June 14, 1984",
           question: "Who is Kevin"
@@ -186,20 +186,20 @@ export class App {
         }
       ]
     }, {
-      name: "Speed bumps",
+      name: "The Office",
       answers: [
         {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "This is Solace's postal code",
+          question: "What is K2K 3M2"
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "This floor used to be Solace's home in 555 Legget",
+          question: "What is the fifth floor"
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "This Solacian loves pop so much they're adorned on the machine",
+          question: "Who is Shawn McAllister"
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "This Solaician has the messiest office",
+          question: "Who is Shannon Goltz"
         }, {
           answer: "June 14, 1984",
           question: "Who is Kevin"
