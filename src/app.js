@@ -1,12 +1,221 @@
 export class App {
   finalJeopardyCategory = "Families";
   dailyDouble = "Who's family is the best?";
+  // categories = [
+  //   {
+  //     name: "Birthdays",
+  //     answers: [
+  //       {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "April 29, 1983",
+  //         question: "Who is Jingjing"
+  //       }, {
+  //         answer: "May 25, 2016",
+  //         question: "Who is Calvin"
+  //       }, {
+  //         answer: "September 25, 2012",
+  //         question: "Who is Owen"
+  //       }, {
+  //         answer: "September 11, 1956",
+  //         question: "Who is Eva"
+  //       }
+  //     ]
+  //   }, {
+  //     name: "Before and After",
+  //     answers: [
+  //       {
+  //         answer: "Solace event broker, sandwich restaurant",
+  //         question: "What is Pub Sub Way"
+  //       }, {
+  //         answer: "Prgramming degree, Star wars genre",
+  //         question: "What is computer science fiction"
+  //       }, {
+  //         answer: "New chief, terrifying monster",
+  //         question: "What is Denis King Kong"
+  //       }, {
+  //         answer: "007 actor, the chairman",
+  //         question: "What is Daniel Craig Betts"
+  //       }, {
+  //         answer: "Framed movie character, terrible technology",
+  //         question: "Roger Rabbit MQ"
+  //       }
+  //     ]
+  //   }, {
+  //     name: "Famous Quotes",
+  //     answers: [
+  //       {
+  //         answer: "Let's deliver our Solace, simply stunning, 5 p's for this fiscal quarter.",
+  //         question: "Who is Les Rechan"
+  //       }, {
+  //         answer: "This will be short (proceeds to talk for 45 minutes)",
+  //         question: "Who is Shawn McAllister"
+  //       }, {
+  //         answer: "EBITDA is so simple",
+  //         question: "Who is Ken Wigglesworth"
+  //       }, {
+  //         answer: "Somwhere over the rainbow",
+  //         question: "Who is David Ng"
+  //       }, {
+  //         answer: "Co-op Chaufuer: Where do you live? Him: I don't remember.",
+  //         question: "Who is David Pochopsky"
+  //       }
+  //     ]
+  //   }, {
+  //     name: "Solace Customers",
+  //     answers: [
+  //       {
+  //         answer: "This Solacian ",
+  //         question: "Who is Apple"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Singapore Port Authority"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Barclays"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is "
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }
+  //     ]
+  //   },  {
+  //     name: "Silicon Valley North",
+  //     answers: [
+  //       {
+  //         answer: "This arena is home of the senators",
+  //         question: "What is the Canadian Tire Centre"
+  //       }, {
+  //         answer: "This property manager is home to 3.1 million square feet of commerical real-estate",
+  //         question: "What is the Kanata Research Park"
+  //       }, {
+  //         answer: "Order up a XL 12 or B8 from this establishment if you're extra hungry",
+  //         question: "What is Kanata Noodle House"
+  //       }, {
+  //         answer: "Home to the worst designed parking lot in Canada",
+  //         question: "What is the Kanata Centrum"
+  //       }, {
+  //         answer: "Canada is derived from the iriquois word of Kanata, which means this.",
+  //         question: "What is village or settlement"
+  //       }
+  //     ]
+  //   }
+  // ];
+  // round2 = [
+  //   {
+  //     name: "Tamimi's favourite movies",
+  //     answers: [
+  //       {
+  //         answer: "High school girls can't make fetch happen",
+  //         question: "What is Mean Girls"
+  //       }, {
+  //         answer: "Ping pong champion also goes for a jog",
+  //         question: "What is Forrest Gump"
+  //       }, {
+  //         answer: "Clown doesn't understand why people don't have fun",
+  //         question: "What is The Dark Knight"
+  //       }, {
+  //         answer: "3 wolves are chased down by a tigre",
+  //         question: ""
+  //       }, {
+  //         answer: "Canada is derived from the word Kanata, which means this.",
+  //         question: "What is village or settlement"
+  //       }
+  //     ]
+  //   }, {
+  //     name: "Your co-workers",
+  //     answers: [
+  //       {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }
+  //     ]
+  //   }, {
+  //     name: "Co-ops",
+  //     answers: [
+  //       {
+  //         answer: "This Canadian university has produced the most co-ops for Solace",
+  //         question: "What is Carleton"
+  //       }, {
+  //         answer: "A co-op term is this many weeks",
+  //         question: "What is 16"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }
+  //     ]
+  //   }, {
+  //     name: "Figure out what kids say",
+  //     answers: [
+  //       {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }
+  //     ]
+  //   }, {
+  //     name: "The Office",
+  //     answers: [
+  //       {
+  //         answer: "This is Solace's postal code",
+  //         question: "What is K2K 3M2"
+  //       }, {
+  //         answer: "This floor used to be Solace's home in 555 Legget",
+  //         question: "What is the fifth floor"
+  //       }, {
+  //         answer: "This Solacian loves pop so much they're adorned on the machine",
+  //         question: "Who is Shawn McAllister"
+  //       }, {
+  //         answer: "This Solaician has the messiest office",
+  //         question: "Who is Shannon Goltz"
+  //       }, {
+  //         answer: "June 14, 1984",
+  //         question: "Who is Kevin"
+  //       }
+  //     ]
+  //   }
+  // ];
+  round = 1;
+  questionVisible = false;
+
   categories = [
     {
-      name: "Birthdays",
+      name: "Eye Spy",
       answers: [
         {
-          answer: "June 14, 1984",
+          answer: "The dou",
           question: "Who is Kevin"
         }, {
           answer: "April 29, 1983",
@@ -23,50 +232,50 @@ export class App {
         }
       ]
     }, {
-      name: "Before and After",
+      name: "Birthdays",
       answers: [
         {
-          answer: "Solace event broker, sandwich restaurant",
+          answer: "9/11",
           question: "What is Pub Sub Way"
         }, {
-          answer: "Prgramming degree, Star wars genre",
+          answer: "11/11",
           question: "What is computer science fiction"
         }, {
-          answer: "New chief, terrifying monster",
+          answer: "11/4",
           question: "What is Denis King Kong"
         }, {
-          answer: "007 actor, the chairman",
+          answer: "9/1",
           question: "What is Daniel Craig Betts"
         }, {
-          answer: "Framed movie character, terrible technology",
+          answer: "1/9",
           question: "Roger Rabbit MQ"
         }
       ]
     }, {
-      name: "Famous Quotes",
+      name: "Sports",
       answers: [
         {
-          answer: "Let's deliver our Solace, simply stunning, 5 p's for this fiscal quarter.",
+          answer: "Dink, Block, Centre Line.",
           question: "Who is Les Rechan"
         }, {
-          answer: "This will be short (proceeds to talk for 45 minutes)",
+          answer: "Approach shot, volley, dig",
           question: "Who is Shawn McAllister"
         }, {
-          answer: "EBITDA is so simple",
+          answer: "Drop, serve, clear",
           question: "Who is Ken Wigglesworth"
         }, {
-          answer: "Somwhere over the rainbow",
+          answer: "Eagle, lift, binding",
           question: "Who is David Ng"
         }, {
-          answer: "Co-op Chaufuer: Where do you live? Him: I don't remember.",
+          answer: "Stroke, let, tin",
           question: "Who is David Pochopsky"
         }
       ]
     }, {
-      name: "Solace Customers",
+      name: "Linda-isms",
       answers: [
         {
-          answer: "This Solacian ",
+          answer: "A small breed of dog",
           question: "Who is Apple"
         }, {
           answer: "June 14, 1984",
@@ -83,7 +292,7 @@ export class App {
         }
       ]
     },  {
-      name: "Silicon Valley North",
+      name: "Name that tune",
       answers: [
         {
           answer: "This arena is home of the senators",
@@ -106,7 +315,7 @@ export class App {
   ];
   round2 = [
     {
-      name: "Tamimi's favourite movies",
+      name: "Sports",
       answers: [
         {
           answer: "High school girls can't make fetch happen",
@@ -126,7 +335,7 @@ export class App {
         }
       ]
     }, {
-      name: "Your co-workers",
+      name: "YMCA",
       answers: [
         {
           answer: "June 14, 1984",
@@ -146,7 +355,7 @@ export class App {
         }
       ]
     }, {
-      name: "Co-ops",
+      name: "Just Desserts",
       answers: [
         {
           answer: "This Canadian university has produced the most co-ops for Solace",
@@ -166,7 +375,7 @@ export class App {
         }
       ]
     }, {
-      name: "Figure out what kids say",
+      name: "Before and After",
       answers: [
         {
           answer: "June 14, 1984",
@@ -186,7 +395,7 @@ export class App {
         }
       ]
     }, {
-      name: "The Office",
+      name: "Famous Quotes",
       answers: [
         {
           answer: "This is Solace's postal code",
@@ -207,8 +416,6 @@ export class App {
       ]
     }
   ];
-  round = 1;
-  questionVisible = false;
 
   showQuestion(answer) {
     this.questionVisible = true;

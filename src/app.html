@@ -14,7 +14,7 @@
       </div>
     </div>
     <div if.bind="questionVisible" class="question" click.delegate="questionVisible = false">
-      ${question.answer}
+      <span>${question.answer}</span>
     </div>
     <div if.bind="showFinalJeopardyClue" class="question" click.delegate="questionVisible = false">
       ${finalJeopardyCategory}
