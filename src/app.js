@@ -210,25 +210,32 @@ export class App {
   round = 1;
   questionVisible = false;
 
+  undoList = [];
+  prefix = "/jeopardy/dist/";
   categories = [
     {
       name: "Eye Spy",
       answers: [
         {
-          answer: "The dou",
-          question: "Who is Kevin"
+          answer: "",
+          question: "",
+          image: this.prefix + "eyes1.jpg"
         }, {
-          answer: "April 29, 1983",
-          question: "Who is Jingjing"
+          answer: "",
+          question: "",
+          image: this.prefix + "eyes2.jpg"
         }, {
-          answer: "May 25, 2016",
-          question: "Who is Calvin"
+          answer: "",
+          question: "",
+          image: this.prefix + "eyes3.jpg"
         }, {
-          answer: "September 25, 2012",
-          question: "Who is Owen"
+          answer: "",
+          question: "",
+          image: this.prefix + "eyes4.jpg"
         }, {
-          answer: "September 11, 1956",
-          question: "Who is Eva"
+          answer: "",
+          question: "",
+          image: this.prefix + "eyes5.jpg"
         }
       ]
     }, {
@@ -275,149 +282,184 @@ export class App {
       name: "Linda-isms",
       answers: [
         {
-          answer: "A small breed of dog",
-          question: "Who is Apple"
+          answer: "The smallest breed of dog.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Singapore Port Authority"
+          answer: "Live.Eat.Play.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Barclays"
+          answer: "Home to Crooked Tree",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is "
+          answer: "400-",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
-        }
+          answer: "500-",
+          question: ""
+        } 
       ]
     },  {
       name: "Name that tune",
       answers: [
         {
-          answer: "This arena is home of the senators",
-          question: "What is the Canadian Tire Centre"
+          answer: "",
+          question: "",
+          song: this.prefix + "song1.mp3"
         }, {
-          answer: "This property manager is home to 3.1 million square feet of commerical real-estate",
-          question: "What is the Kanata Research Park"
+          answer: "",
+          question: "",
+          song: this.prefix + "song2.mp3"
         }, {
-          answer: "Order up a XL 12 or B8 from this establishment if you're extra hungry",
-          question: "What is Kanata Noodle House"
+          answer: "",
+          question: "",
+          song: this.prefix + "song3.mp3"
         }, {
-          answer: "Home to the worst designed parking lot in Canada",
-          question: "What is the Kanata Centrum"
+          answer: "",
+          question: "",
+          song: this.prefix + "song4.mp3"
         }, {
-          answer: "Canada is derived from the iriquois word of Kanata, which means this.",
-          question: "What is village or settlement"
+          answer: "",
+          question: "",
+          song: this.prefix + "song5.mp3"
         }
       ]
     }
   ];
   round2 = [
     {
-      name: "Sports",
+      name: "Golf",
       answers: [
         {
-          answer: "High school girls can't make fetch happen",
-          question: "What is Mean Girls"
+          answer: "",
+          question: "",
+          image: this.prefix + "golf1.jpg"
         }, {
-          answer: "Ping pong champion also goes for a jog",
-          question: "What is Forrest Gump"
+          answer: "",
+          question: "",
+          image: this.prefix + "golf2.jpg"
         }, {
-          answer: "Clown doesn't understand why people don't have fun",
-          question: "What is The Dark Knight"
+          answer: "",
+          question: "",
+          image: this.prefix + "golf3.jpg"
         }, {
-          answer: "3 wolves are chased down by a tigre",
-          question: ""
+          answer: "",
+          question: "",
+          image: this.prefix + "golf4.jpg"
         }, {
-          answer: "Canada is derived from the word Kanata, which means this.",
-          question: "What is village or settlement"
+          answer: "",
+          question: "",
+          image: this.prefix + "golf5.jpg"
         }
       ]
     }, {
       name: "YMCA",
       answers: [
         {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "Midsize Toyota product.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "The art of dealing with people in a sensitive and effective way.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "Queen Elizabeth, Prince Charles and Prince George.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "Onetime member of Rytac.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "An oft visited vacation spot south of the border.",
+          question: ""
         }
       ]
     }, {
       name: "Just Desserts",
       answers: [
         {
-          answer: "This Canadian university has produced the most co-ops for Solace",
-          question: "What is Carleton"
+          answer: "I wonder if this dessert topped with whipped egg whites would prevent scurvy.",
+          question: ""
         }, {
-          answer: "A co-op term is this many weeks",
-          question: "What is 16"
+          answer: "You wouldnt catch Phil sampling this pie, that oddly enough does not come from nuts.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "A visit to Thomson farms with supply you with ingredients for this sweet biscuit.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "The offspring of After Eight and York Patties perhaps. ",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "Sometimes Eva makes Crack  Pie because she forgets to add the main ingredient in this pie.",
+          question: ""
         }
       ]
     }, {
       name: "Before and After",
       answers: [
         {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "Phil and Rob watching a Julia Roberts/Sally Field movie at work.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "A snow spike team snacking on a candy-coated chocolate treat. ",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "A special message of congratulations to while dancing at the badminton social. ",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "A Rolling Stones song about the driveway at the Lidstone’s camp.",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "Day camp activity for kids with a sore  back.",
+          question: ""
         }
       ]
     }, {
-      name: "Famous Quotes",
+      name: "R-Rated Quotes",
       answers: [
         {
-          answer: "This is Solace's postal code",
-          question: "What is K2K 3M2"
+          answer: "You Idiot.",
+          question: ""
         }, {
-          answer: "This floor used to be Solace's home in 555 Legget",
-          question: "What is the fifth floor"
+          answer: "F*ck…F*ck Me.",
+          question: ""
         }, {
-          answer: "This Solacian loves pop so much they're adorned on the machine",
-          question: "Who is Shawn McAllister"
+          answer: "I hate this f*ckin game.",
+          question: ""
         }, {
-          answer: "This Solaician has the messiest office",
-          question: "Who is Shannon Goltz"
+          answer: "Is Mike Oxbig here?",
+          question: ""
         }, {
-          answer: "June 14, 1984",
-          question: "Who is Kevin"
+          answer: "500",
+          question: ""
         }
       ]
     }
   ];
+  
+  activate() {
+    window.addEventListener('keypress', this.undo.bind(this), false);
+  }
 
-  showQuestion(answer) {
+  final() {
+    this.showFinalJeopardyClue = false;
+    this.showFinalJeopardy = true;
+  }
+
+  undo(event) {
+    let answer = this.undoList.pop(this.undoList.length -1);
+    if (answer) {
+      answer.viewed = false;
+    }
+    if (event.key === 'r') {
+      this.nextRound();
+    }
+  }
+
+  showQuestion(answer, event) {
+    console.log(event);
+    if (event.button === 1) {
+      answer.viewed = false;
+      return;
+    }
+    this.undoList.push(answer);
     this.questionVisible = true;
     answer.viewed = true;
     this.question = answer;
@@ -427,6 +469,15 @@ export class App {
       }).length === category.answers.length;
       return r;
     }).length === this.categories.length;
+    if (answer.song) {
+      setTimeout(() => {
+        var source = this.audioSource;
+        source.src = answer.song;
+      
+        this.audio.load(); //call this to just preload the audio without playing
+        this.audio.play(); //call this to play the song right away
+      }, 50)
+    }
     if (done) {
       this.nextRound();
     }
@@ -444,6 +495,7 @@ export class App {
         this.categories[i].answers[j].answer = answer.answer;
         this.categories[i].answers[j].question = answer.question;
         this.categories[i].answers[j].viewed = false;
+        this.categories[i].answers[j].image = answer.image;
       });
     });
     
