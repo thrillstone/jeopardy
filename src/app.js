@@ -496,6 +496,7 @@ export class App {
         this.categories[i].answers[j].question = answer.question;
         this.categories[i].answers[j].viewed = false;
         this.categories[i].answers[j].image = answer.image;
+        this.categories[i].answers[j].song = answer.song;
       });
     });
     
