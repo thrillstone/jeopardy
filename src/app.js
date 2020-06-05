@@ -364,7 +364,7 @@ export class App {
           answer: "Queen Elizabeth, Prince Charles and Prince George.",
           question: ""
         }, {
-          answer: "Onetime member of Rytac.",
+          answer: "One time member of Rytac.",
           question: ""
         }, {
           answer: "An oft visited vacation spot south of the border.",
@@ -395,19 +395,19 @@ export class App {
       name: "Before and After",
       answers: [
         {
-          answer: "Phil and Rob watching a Julia Roberts/Sally Field movie at work.",
+          answer: "Phil and Rob at work watching a Julia Roberts/Sally Field movie.",
           question: ""
         }, {
           answer: "A snow spike team snacking on a candy-coated chocolate treat. ",
           question: ""
         }, {
-          answer: "A special message of congratulations to while dancing at the badminton social. ",
+          answer: "Dancing at the badminton social, a special message of congratulations.",
           question: ""
         }, {
           answer: "A Rolling Stones song about the driveway at the Lidstone’s camp.",
           question: ""
         }, {
-          answer: "Day camp activity for kids with a sore  back.",
+          answer: "Small business for fixing your sore back, summer camp activity",
           question: ""
         }
       ]
