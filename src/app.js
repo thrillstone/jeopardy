@@ -1,6 +1,6 @@
 export class App {
-  finalJeopardyCategory = "Families";
-  dailyDouble = "Who's family is the best?";
+  finalJeopardyCategory = "Social Science";
+  dailyDouble = "This colloquialism is commonly used to express when a person is sent to jail.";
   // categories = [
   //   {
   //     name: "Birthdays",
@@ -291,10 +291,10 @@ export class App {
           answer: "Home to Crooked Tree",
           question: ""
         }, {
-          answer: "400-",
+          answer: "A sattelite-based radio navigation system",
           question: ""
         }, {
-          answer: "500-",
+          answer: "A city known for luxury shopping, ultra modern architecture and a lively night life scene",
           question: ""
         } 
       ]
@@ -427,7 +427,7 @@ export class App {
           answer: "Is Mike Oxbig here?",
           question: ""
         }, {
-          answer: "500",
+          answer: "Coming up the rear.",
           question: ""
         }
       ]
