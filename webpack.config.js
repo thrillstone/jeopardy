@@ -18,8 +18,8 @@ const title = 'Jeopardy';
 const outDir = path.resolve(__dirname, project.platform.output);
 const srcDir = path.resolve(__dirname, 'src');
 const nodeModulesDir = path.resolve(__dirname, 'node_modules');
-// const baseUrl = '/jeopardy/dist';
-const baseUrl = '/';
+const baseUrl = '/jeopardy/dist';
+// const baseUrl = '/';
 
 const cssRules = [
   { loader: 'css-loader' },

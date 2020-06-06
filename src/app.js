@@ -212,7 +212,7 @@ export class App {
 
   undoList = [];
   prefix = "/jeopardy/dist/";
-  prefix = "/";
+  // prefix = "/";
   categories = [
     {
       name: "Eye Spy",
