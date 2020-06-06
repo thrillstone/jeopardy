@@ -262,10 +262,10 @@ export class App {
       name: "Sports",
       answers: [
         {
-          answer: "Dink, Block, Centre Line.",
+          answer: "Dig, Block, Centre Line.",
           question: "Who is Les Rechan"
         }, {
-          answer: "Approach shot, volley, dig",
+          answer: "Approach shot, volley, dink",
           question: "Who is Shawn McAllister"
         }, {
           answer: "Drop, serve, clear",
@@ -415,7 +415,7 @@ export class App {
       name: "R-Rated Quotes",
       answers: [
         {
-          answer: "You Idiot.",
+          answer: "Choking feaking dog.",
           question: ""
         }, {
           answer: "F*ck…F*ck Me.",
