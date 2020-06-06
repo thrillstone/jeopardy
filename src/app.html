@@ -13,7 +13,7 @@
         </div>
       </div>
     </div>
-    <div if.bind="questionVisible" class="question" click.delegate="returnToBoard(question)">
+    <div if.bind="questionVisible" class="question" click.delegate="returnToBoard()">
       <img if.bind="question.image" src.bind="question.image">
       <audio ref="audio" if.bind="question.song" controls autoplay>
         <source ref="audioSource" type="audio/mpeg">
