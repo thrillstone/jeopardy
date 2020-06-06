@@ -475,7 +475,7 @@ export class App {
     }
   }
 
-  returnToBoard() {
+  returnToBoard(answer) {
     let done = this.categories.filter(category => {
       let r = category.answers.filter(answer => {
         return answer.viewed;
