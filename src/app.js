@@ -212,6 +212,7 @@ export class App {
 
   undoList = [];
   prefix = "/jeopardy/dist/";
+  // prefix = "/";
   categories = [
     {
       name: "Eye Spy",
@@ -381,7 +382,7 @@ export class App {
           answer: "You wouldnt catch Phil sampling this pie, that oddly enough does not come from nuts.",
           question: ""
         }, {
-          answer: "A visit to Thomson farms with supply you with ingredients for this sweet biscuit.",
+          answer: "A visit to Thomson farms will supply you with ingredients for this sweet biscuit.",
           question: ""
         }, {
           answer: "The offspring of After Eight and York Patties perhaps. ",
@@ -455,7 +456,7 @@ export class App {
 
   showQuestion(answer, event) {
     console.log(event);
-    if (event.button === 1) {
+    if (answer.viewed) {
       answer.viewed = false;
       return;
     }
@@ -486,6 +487,7 @@ export class App {
   nextRound() {
     if (this.round === 2) {
       this.showFinalJeopardyClue = true;
+      this.showFinalJeopardy = false;
       return;
     }
     this.round = 2;
