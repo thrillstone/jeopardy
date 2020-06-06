@@ -212,7 +212,7 @@ export class App {
 
   undoList = [];
   prefix = "/jeopardy/dist/";
-  // prefix = "/";
+  prefix = "/";
   categories = [
     {
       name: "Eye Spy",
@@ -464,12 +464,6 @@ export class App {
     this.questionVisible = true;
     answer.viewed = true;
     this.question = answer;
-    let done = this.categories.filter(category => {
-      let r = category.answers.filter(answer => {
-        return answer.viewed;
-      }).length === category.answers.length;
-      return r;
-    }).length === this.categories.length;
     if (answer.song) {
       setTimeout(() => {
         var source = this.audioSource;
@@ -479,6 +473,15 @@ export class App {
         this.audio.play(); //call this to play the song right away
       }, 50)
     }
+  }
+
+  returnToBoard() {
+    let done = this.categories.filter(category => {
+      let r = category.answers.filter(answer => {
+        return answer.viewed;
+      }).length === category.answers.length;
+      return r;
+    }).length === this.categories.length;
     if (done) {
       this.nextRound();
     }
