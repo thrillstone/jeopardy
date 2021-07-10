@@ -230,8 +230,8 @@ export class App {
           answer: "Pepto Bismol is used for this",
           question: "What is dipping flowers into"
         }, {
-          answer: "Her favourite tv show when she was 16 was this soap opera",
-          question: "What is Passions"
+          answer: "Her greatest achievement over her siblings is this award",
+          question: "What is Jr Athlete of the year"
         }
       ]
     }, {
