@@ -215,221 +215,216 @@ export class App {
   // prefix = "/";
   categories = [
     {
-      name: "Eye Spy",
+      name: "According to Lauren",
       answers: [
         {
-          answer: "",
-          question: "",
-          image: this.prefix + "eyes1.jpg"
+          answer: "To better match her siblings, this should've been Lauren's name",
+          question: "What is Kerrie Lidstone"
         }, {
-          answer: "",
-          question: "",
-          image: this.prefix + "eyes2.jpg"
+          answer: "To drive across Canada, it will take this many days",
+          question: "What is 25"
         }, {
-          answer: "",
-          question: "",
-          image: this.prefix + "eyes3.jpg"
+          answer: "This many earths can fit into the sun",
+          question: "What is 100"
         }, {
-          answer: "",
-          question: "",
-          image: this.prefix + "eyes4.jpg"
+          answer: "Pepto Bismol is used for this",
+          question: "What is dipping flowers into"
         }, {
-          answer: "",
-          question: "",
-          image: this.prefix + "eyes5.jpg"
+          answer: "Her favourite tv show when she was 16 was this soap opera",
+          question: "What is Passions"
         }
       ]
     }, {
-      name: "Birthdays",
+      name: "Favourites",
       answers: [
         {
-          answer: "9/11",
-          question: "What is Pub Sub Way"
+          answer: "Lauren's least favourite Soo high school",
+          question: "Sir James Dunn"
         }, {
-          answer: "11/11",
-          question: "What is computer science fiction"
+          answer: "Lauren wasn't allowed to frequent this restaurant because she isn't frickin' rich",
+          question: "What is Tim Horton's"
         }, {
-          answer: "11/4",
-          question: "What is Denis King Kong"
+          answer: "A 1997 box office smash about a group of girls touring London on a double decker bus",
+          question: "What is Spice World"
         }, {
-          answer: "9/1",
-          question: "What is Daniel Craig Betts"
+          answer: "When someone annoyed Lauren in high school she would turn to this appropriately named alcoholic drink",
+          question: "What is Vex"
         }, {
-          answer: "1/9",
-          question: "Roger Rabbit MQ"
+          answer: "Her favourite tv show when she was 16 was this soap opera",
+          question: "What is Passions"
         }
       ]
     }, {
-      name: "Sports",
+      name: "Brauren",
       answers: [
         {
-          answer: "Dig, Block, Centre Line.",
+          answer: "This fiancee said I love you first",
           question: "Who is Les Rechan"
         }, {
-          answer: "Approach shot, volley, dink",
-          question: "Who is Shawn McAllister"
+          answer: "Watching the Raptors game at Brett's mom's house was the location of this milestone",
+          question: "What is their first date"
         }, {
-          answer: "Drop, serve, clear",
-          question: "Who is Ken Wigglesworth"
+          answer: "After April 30, 2022, Lauren's name will officially be this",
+          question: "What is Lauren Heaman"
         }, {
-          answer: "Eagle, lift, binding",
-          question: "Who is David Ng"
+          answer: "Brett and Lauren first met doing this together",
+          question: "What is playing soccer"
         }, {
-          answer: "Stroke, let, tin",
-          question: "Who is David Pochopsky"
+          answer: "Brett and Lauren have this many siblings between them",
+          question: "What is 4"
         }
       ]
     }, {
-      name: "Linda-isms",
+      name: "By the numbers",
       answers: [
         {
-          answer: "The smallest breed of dog.",
-          question: ""
+          answer: "The age Lauren was when she got her first grey hair",
+          question: "What is 28"
         }, {
-          answer: "Live.Eat.Play.",
-          question: ""
+          answer: "The number of weddings Lauren has been in",
+          question: "What is 8"
         }, {
-          answer: "Home to Crooked Tree",
-          question: ""
+          answer: "The number of times Lauren needed to pass her G1",
+          question: "What is twice"
         }, {
-          answer: "A sattelite-based radio navigation system",
-          question: ""
+          answer: "The most Lauren has ever weighed in pounds",
+          question: "What is 140"
         }, {
-          answer: "A city known for luxury shopping, ultra modern architecture and a lively night life scene",
-          question: ""
+          answer: "The age Lauren was when she stopped sucking her thumb",
+          question: "14"
         } 
       ]
     },  {
-      name: "Name that tune",
+      name: "Pics",
       answers: [
         {
           answer: "",
           question: "",
-          song: this.prefix + "song1.mp3"
+          image: this.prefix + "lauren1.mp3"
         }, {
           answer: "",
           question: "",
-          song: this.prefix + "song2.mp3"
+          image: this.prefix + "lauren2.mp3"
         }, {
           answer: "",
           question: "",
-          song: this.prefix + "song3.mp3"
+          image: this.prefix + "lauren3.mp3"
         }, {
           answer: "",
           question: "",
-          song: this.prefix + "song4.mp3"
+          image: this.prefix + "lauren4.mp3"
         }, {
           answer: "",
           question: "",
-          song: this.prefix + "song5.mp3"
+          image: this.prefix + "lauren5.mp3"
         }
       ]
     }
   ];
   round2 = [
     {
-      name: "Golf",
+      name: "According to Lauren",
       answers: [
         {
-          answer: "",
-          question: "",
-          image: this.prefix + "golf1.jpg"
+          answer: "To better match her siblings, this should've been Lauren's name",
+          question: "What is Kerrie Lidstone"
         }, {
-          answer: "",
-          question: "",
-          image: this.prefix + "golf2.jpg"
+          answer: "To drive across Canada, it will take this many days",
+          question: "What is 25"
         }, {
-          answer: "",
-          question: "",
-          image: this.prefix + "golf3.jpg"
+          answer: "When she was 5 years old she wanted to be this profession",
+          question: "What is a face model"
         }, {
-          answer: "",
-          question: "",
-          image: this.prefix + "golf4.jpg"
+          answer: "There are this many countries in the world",
+          question: "What is 1000"
         }, {
-          answer: "",
-          question: "",
-          image: this.prefix + "golf5.jpg"
+          answer: "Her favourite tv show when she was 16 was this soap opera",
+          question: "What is Passions"
         }
       ]
     }, {
-      name: "YMCA",
+      name: "Favourites",
       answers: [
         {
-          answer: "Midsize Toyota product.",
-          question: ""
+          answer: "Lauren's least favourite Soo high school",
+          question: "Sir James Dunn"
         }, {
-          answer: "The art of dealing with people in a sensitive and effective way.",
-          question: ""
+          answer: "Lauren wasn't allowed to frequent this restaurant because she isn't frickin' rich",
+          question: "What is Tim Horton's"
         }, {
-          answer: "Queen Elizabeth, Prince Charles and Prince George.",
-          question: ""
+          answer: "A 1997 box office smash about a group of girls touring London on a double decker bus",
+          question: "What is Spice World"
         }, {
-          answer: "One time member of Rytac.",
-          question: ""
+          answer: "When someone annoyed Lauren in high school she would turn to this appropriately named alcoholic drink",
+          question: "What is Vex"
         }, {
-          answer: "An oft visited vacation spot south of the border.",
-          question: ""
+          answer: "Her favourite tv show when she was 16 was this soap opera",
+          question: "What is Passions"
         }
       ]
     }, {
-      name: "Just Desserts",
+      name: "Brauren",
       answers: [
         {
-          answer: "I wonder if this dessert topped with whipped egg whites would prevent scurvy.",
-          question: ""
+          answer: "This fiancee said I love you first",
+          question: "Who is Brett"
         }, {
-          answer: "You wouldnt catch Phil sampling this pie, that oddly enough does not come from nuts.",
-          question: ""
+          answer: "Watching the Raptors game at Brett's mom's house was the location of this milestone",
+          question: "What is their first date"
         }, {
-          answer: "A visit to Thomson farms will supply you with ingredients for this sweet biscuit.",
-          question: ""
+          answer: "After April 30, 2022, Lauren's name will officially be this",
+          question: "What is Lauren Heaman"
         }, {
-          answer: "The offspring of After Eight and York Patties perhaps. ",
-          question: ""
+          answer: "Brett and Lauren first met doing this together",
+          question: "What is playing soccer"
         }, {
-          answer: "Sometimes Eva makes Crack  Pie because she forgets to add the main ingredient in this pie.",
-          question: ""
+          answer: "Brett and Lauren have this many siblings between them",
+          question: "What is 4"
         }
       ]
     }, {
-      name: "Before and After",
+      name: "By the numbers",
       answers: [
         {
-          answer: "Phil and Rob at work watching a Julia Roberts/Sally Field movie.",
-          question: ""
+          answer: "The age Lauren was when she got her first grey hair",
+          question: "What is 28"
         }, {
-          answer: "A snow spike team snacking on a candy-coated chocolate treat. ",
-          question: ""
+          answer: "The number of weddings Lauren has been in",
+          question: "What is 8"
         }, {
-          answer: "Dancing at the badminton social, a special message of congratulations.",
-          question: ""
+          answer: "The number of times Lauren needed to pass her G1",
+          question: "What is 2"
         }, {
-          answer: "A Rolling Stones song about the driveway at the Lidstone’s camp.",
-          question: ""
+          answer: "The most Lauren has ever weighed in pounds",
+          question: "What is 142"
         }, {
-          answer: "Small business for fixing your sore back, summer camp activity",
-          question: ""
-        }
+          answer: "The age Lauren was when she stopped sucking her thumb",
+          question: "What is 13"
+        } 
       ]
-    }, {
-      name: "R-Rated Quotes",
+    },  {
+      name: "Pics",
       answers: [
         {
-          answer: "Choking feaking dog.",
-          question: ""
+          answer: "",
+          question: "",
+          image: this.prefix + "lauren1.mp3"
         }, {
-          answer: "F*ck…F*ck Me.",
-          question: ""
+          answer: "",
+          question: "",
+          image: this.prefix + "lauren2.mp3"
         }, {
-          answer: "I hate this f*ckin game.",
-          question: ""
+          answer: "",
+          question: "",
+          image: this.prefix + "lauren3.mp3"
         }, {
-          answer: "Is Mike Oxbig here?",
-          question: ""
+          answer: "",
+          question: "",
+          image: this.prefix + "lauren4.mp3"
         }, {
-          answer: "Coming up the rear.",
-          question: ""
+          answer: "",
+          question: "",
+          image: this.prefix + "lauren5.mp3"
         }
       ]
     }
