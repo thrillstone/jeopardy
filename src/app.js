@@ -300,23 +300,23 @@ export class App {
         {
           answer: "",
           question: "",
-          image: this.prefix + "lauren1.mp3"
+          image: this.prefix + "lauren1.jpg"
         }, {
           answer: "",
           question: "",
-          image: this.prefix + "lauren2.mp3"
+          image: this.prefix + "lauren2.jpg"
         }, {
           answer: "",
           question: "",
-          image: this.prefix + "lauren3.mp3"
+          image: this.prefix + "lauren3.jpg"
         }, {
           answer: "",
           question: "",
-          image: this.prefix + "lauren4.mp3"
+          image: this.prefix + "lauren4.jpg"
         }, {
           answer: "",
           question: "",
-          image: this.prefix + "lauren5.mp3"
+          image: this.prefix + "lauren5.jpg"
         }
       ]
     }
@@ -408,23 +408,23 @@ export class App {
         {
           answer: "",
           question: "",
-          image: this.prefix + "lauren1.mp3"
+          image: this.prefix + "lauren1.jpg"
         }, {
           answer: "",
           question: "",
-          image: this.prefix + "lauren2.mp3"
+          image: this.prefix + "lauren2.jpg"
         }, {
           answer: "",
           question: "",
-          image: this.prefix + "lauren3.mp3"
+          image: this.prefix + "lauren3.jpg"
         }, {
           answer: "",
           question: "",
-          image: this.prefix + "lauren4.mp3"
+          image: this.prefix + "lauren4.jpg"
         }, {
           answer: "",
           question: "",
-          image: this.prefix + "lauren5.mp3"
+          image: this.prefix + "lauren5.jpg"
         }
       ]
     }
